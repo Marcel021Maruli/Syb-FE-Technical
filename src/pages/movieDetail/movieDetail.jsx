@@ -6,7 +6,7 @@ import DetailContainer from "./components/detailContainer";
 
 const MovieDetail = () => {
   const { data } = useMovieDetail();
-  console.log(data);
+
   return (
     <>
       <div className='MovieDetail'>
