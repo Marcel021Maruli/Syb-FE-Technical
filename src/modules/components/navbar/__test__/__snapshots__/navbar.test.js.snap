@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Navbar /> should match with a snapshot 1`] = `
+<div
+  class="Navbar"
+>
+  <div
+    class="ant-row Navbar-ul"
+    style="margin-left:-16px;margin-right:-16px"
+  >
+    <div
+      class="ant-col ant-col-xs-4 ant-col-sm-4 ant-col-md-2"
+      style="padding-left:16px;padding-right:16px"
+    >
+      <a
+        class="Navbar-link--inactive"
+        href="/anilist-list"
+      >
+        <img
+          alt="Anilist Logo"
+          class="Navbar-logo"
+          src="anilist-logo.png"
+        />
+      </a>
+    </div>
+    <div
+      class="ant-col ant-col-xs-16 ant-col-sm-16 ant-col-md-8"
+      style="padding-left:16px;padding-right:16px"
+    >
+      <input
+        class="Search"
+        name="search"
+        placeholder="Search Title.."
+        type="text"
+      />
+    </div>
+  </div>
+</div>
+`;

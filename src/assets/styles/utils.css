@@ -1,0 +1,46 @@
+.u-text-decoration--none {
+  text-decoration: none;
+  color: black;
+}
+
+.u-display-block {
+  display: block;
+}
+
+.u-display-none {
+  display: none;
+}
+
+.u-marginTop-12vh {
+  margin-top: 12vh;
+}
+
+.u-position--stick {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.u-border-radius--100 {
+  border-radius: 100%;
+}
+
+.u-container {
+  margin: 10vh auto;
+  max-width: 90rem;
+  width: 90%;
+}
+
+.u-container--scroll {
+  margin: 10vh auto;
+  max-width: 90rem;
+  width: 100%;
+  padding: 5vw;
+  overflow: scroll;
+  max-height: 90vh;
+}
+
+.u-container--scroll::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
